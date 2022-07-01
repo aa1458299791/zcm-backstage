@@ -1,0 +1,37 @@
+html,body,#app{
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	min-width: 1366px;
+}
+/* 设置全局面包屑样式 */
+.el-breadcrumb{
+	font-size: 12px;
+	margin-bottom: 20px;
+}
+/* 设置全局卡片样式 */
+.el-card{
+	/* 阴影          important提高指定样式规则的应用优先权      */
+	box-shadow:0 3px  3px rgba(0,0,0,0.15) !important;
+}
+/* 设置全局表格样式 */
+.el-table{
+	margin-top: 35px;
+	font-size: 12px;
+}
+/* 设置全局表格分页样式 */
+.el-pagination{
+	margin-top: 25px;
+}
+/* 步骤条 */
+.el-steps{
+	margin: 15px 0;
+}
+/* 步骤条文字 */
+.el-step__title{
+	font-size: 15px;
+}
+/* 设置商品管理-添加商品-商品内容的富文本框 */
+.ql-editor{
+	min-height: 300px;
+}
